@@ -1,6 +1,6 @@
-public class ArrayAscending{
+public class ArrayLargestNum{
 	public static void main(String[] args){
-		int[] x={13,9,11,7,21,7,25};
+		int[] x={37,4,19,86,76,2,98};
 		int temp=0;
 		int swapping;
 		do{
@@ -19,5 +19,6 @@ public class ArrayAscending{
 		for(int num:x){
 			System.out.println(num+ " ");
 		}
+		System.out.println("second largest number:"+x[x.length-2]);
 	}
 }
